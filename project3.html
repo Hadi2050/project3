@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="#"><img src="./eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="nav">
+                <i class="fa fa-times on" onclick="hide()"></i>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="show()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>World's Largest uneversity</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Hic fugiat quibusdam perspiciatis quis aspernatur, <br> maiores quo animi placeat,
+                  reprehenderit accusantium omnis earum sit ipsa. <br> Eligendi, amet?
+                   Molestias ipsam culpa corporis?</p>
+                   <a class="btn" href="#"> Click Here To know more</a>
+        </div>
+
+    </section>
+    <section class="cours">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
+        <div class="row">
+            <div class="ofr">
+                <h3> HTML</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
+            </div>
+            <div class="ofr">
+                <h3> CSS</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
+            </div>
+            <div class="ofr">
+                <h3> JavaScript</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
+            </div>
+           
+        </div>
+
+    </section>
+    <section class="compus">
+                    <h3> HTML</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
+
+        <div class="row">
+            <div class="com-col">
+                <img src="./eduford_img/london.png" alt="">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+
+            </div>
+            <div class="com-col">
+                <img src="./eduford_img/newyork.png" alt="">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+
+            </div>
+            <div class="com-col">
+                <img src="./eduford_img/washington.png" alt="">
+                <div class="layer">
+                    <h3>Washingtop</h3>
+                </div>
+
+            </div>
+           
+        </div>
+
+    </section>
+    <script>
+        var nav = document.getElementById("nav");
+        function show() {
+            nav.style.right="0";
+        }
+        function hide() {
+            nav.style.right="-150px";}
+    </script>
+    
+</body>
+</html>
