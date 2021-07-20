@@ -184,8 +184,8 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top:30px ;
-{}
 }
+
 .com-col{
     flex-basis: 33%;
     border-radius: 10px;
@@ -199,7 +199,7 @@ nav .fa{
     display: block;
 }
 .layer{
-     background:transparent);
+     background:transparent;
      position: absolute;   
      top: 0;
      left: 0;
