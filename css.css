@@ -96,7 +96,7 @@ nav img{
 nav .fa{
     display: none;
 }
-/* media quiry----*/
+/* media quiry-------------------*/
 @media(max-width:600px){
     .text-box h1{
         font-size: 30px;
