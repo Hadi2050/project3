@@ -96,7 +96,6 @@ nav img{
 nav .fa{
     display: none;
 }
-/* media quiry-------------------*/
 @media(max-width:600px){
     .text-box h1{
         font-size: 30px;
@@ -127,7 +126,7 @@ nav .fa{
         }
         nav .fa{
             display: block;
-            color: white;
+            color: rgb(196, 248, 6);
             font-size: 30px;
             margin: 10px;
         }
@@ -142,6 +141,7 @@ nav .fa{
     width: 100%;
     margin: auto;
     text-align: center;
+    padding: 10px;
 }
 .cours h1{
     font-size: 45px;
@@ -157,7 +157,7 @@ nav .fa{
 
 }
 .row{
-    padding-top: 5%px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -168,6 +168,7 @@ nav .fa{
     margin: 0 20px;
     padding-bottom: 14px;
     box-sizing: border-box;
+    margin-bottom: 25px;
 }
 .ofr h3{
     text-align: center;
@@ -199,7 +200,7 @@ nav .fa{
     display: block;
 }
 .layer{
-     background:transparent;
+     background:transparent);
      position: absolute;   
      top: 0;
      left: 0;
@@ -224,4 +225,53 @@ nav .fa{
     
     opacity: 1;
     color: white;
+}
+
+.lib{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:30px ;
+}
+.lib-col{
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+
+}
+.coments{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:30px ;
+
+}
+.coment-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%px;
+    display: flex;
+    padding: 25px;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.253);
+    color: rgb(54, 42, 42);
+    margin-bottom: 15px;
+   
+
+}
+.img{
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.coment-col:hover{
+    background-color: rgba(128, 128, 128, 0.473);
+
+}
+.coment-col h3{
+    padding-left: 25px;
+    float: right;
 }
